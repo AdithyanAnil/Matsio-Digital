@@ -4,14 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matsio Digital</title>
+    <!-- Google Fonts - Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <div class="top-bar">
-        <div class="">
-            <div> 087 245 0049</div>
-            <div>contact@gmail</div>
-            <div>Mon-Thu: 8:00am ti 9:00pm</div>
+        <div class="container">
+            <div> <i class="fa-solid fa-phone-volume"></i>&nbsp;087 245 0049</div>
+            <div><i class="fa-solid fa-envelope"></i>&nbsp;contact@gmail</div>
+            <div><i class="fa-solid fa-calendar-days"></i>&nbsp;Mon-Thu: 8:00am ti 9:00pm</div>
+            
         </div>
+        <div class="icn">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
     </div>
 
     <div class="navbar">
@@ -22,56 +32,65 @@
                 <li><a href="">Services</a></li>
                 <li><a href="">About us</a></li>
                 <li><a href="">Order Company</a></li>
-                <li><a href=""></a>Apply for Tax REbate</li>
-                <li><a href=""></a>Blog</li>
-                <li><a href=""></a>Contact</li>
+                <li><a href="">Apply for Tax Rebate</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
-            <div class="scial-media">
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-            </div>
+            
         </div>
     </div>
 
     <section class="hero">
-        <div>
-            <div>
-                <h1>Take the right step For your Buisiness</h1>
-                <p>Tax associates is leading consultancy firm that provides simple, effective company registration, and accounting solutions to enterprises in Ireland.</p>
+        <div class="inner-hero">
+            <div class="hero-text">
+                <p class="main-text">Take The Right Step <br> For Your Buisiness</p>
+                <p class="sub-text">Tax associates is leading consultancy firm that provides 
+                    <br>simple, effective company registration, and accounting 
+                    <br>solutions to enterprises in Ireland.</p>
                 <button class="btn">Get Started</button>
             </div>
-            <form action="">
-                <p>Apply for tax Rebate Now</p>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <input type="text" placeholder="PPS Number">
-                <label for="">
-                    <input type="checkbox">
-                    I have read & agreed to the authorisation and the <a href="">terms & conditions</a>.
-                </label>
-            </form>
+            <form class="apply-form">
+        <h2>Apply For Tax Rebate Now</h3>
+        <label for="" class="pc-text">Name</label>
+        <input type="text"  required />
+        <label for="" class="pc-text">Email</label>
+        <input type="email"  required />
+        <label for="" class="pc-text">PPS Number</label>
+        <input type="text"  required />
+        <label class="checkbox" style="color: black;">
+          <input type="checkbox" required >
+          I have read & agreed to the authorisation and the <a href="#">terms & conditions</a>.
+        </label>
+        <button class="submit-btn">Apply</button>
+      </form>
         </div>
     </section>
 
     <section class="services">
-        <div>
+        <div class="main-service">
             <div class="service">
-                <div class="icon"></div>
-                <p>Startup Services</p>
+                <div class="ser1">
+                    <i class="fa-solid fa-building"></i>
+                </div>
+                <h2>Startup Services</h2>
                 <p>We support entrepreneurs to build their businesses by providing them with the ideal company formation legal services.</p>
             </div>
 
             <div class="service">
-                <div class="icon"></div>
-                <p>Startup Services</p>
-                <p>We support entrepreneurs to build their businesses by providing them with the ideal company formation legal services.</p>
+                <div class="ser1">
+                    <i class="fa-solid fa-coins"></i>
+                </div>
+                <h4>Finance & Accounting</h4>
+        <p>We provide our clients with the best in the market, accounting, and financial services to help accelerate their business growth.</p>
             </div>
 
             <div class="service">
-                <div class="icon"></div>
-                <p>Startup Services</p>
-                <p>We support entrepreneurs to build their businesses by providing them with the ideal company formation legal services.</p>
+                <div class="ser1">
+                    <i class="fa-solid fa-user-shield"></i>
+                </div>
+                 <h4>Risk & Assurance</h4>
+                 <p>We offer risk and assurance services for new as well as established businesses to help them reduce risks and overcome any disruption.</p>
+      
             </div>
         </div>
     </section>
